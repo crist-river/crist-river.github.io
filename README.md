@@ -1,2 +1,7 @@
 # crist-river.github.io
-podrias aplicar un poco de boostrap para dale un diseño a tu CV
+
+Mis aportes:
+
+Aportes de Compañeros:
+
+- Nombre: Rodrigo Rivas (https://github.com/Rodroy019/rodroy019.github.io.git)
