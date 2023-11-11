@@ -1,6 +1,21 @@
-body{
 
-    background-color: black;
+body {
+
+    background-color: blue;
+    color: antiquewhite;
+}
+
+
+header{
+
+    background-color:black;
+    width: 25%;
     color:aliceblue;
+    text-align: center;
+    
+}
+
+h1{
+
     text-align: center;
 }
