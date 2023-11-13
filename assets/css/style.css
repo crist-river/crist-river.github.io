@@ -28,6 +28,13 @@ section{
     width: 10%;
 }
 
+#Fonted{
+
+    color: antiquewhite;
+    font-style:inherit;
+    font-size: 40px;
+}
+
 #datos{
 
     font-size: 25px;
