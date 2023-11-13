@@ -1,21 +1,16 @@
+body{
 
-body {
-
-    background-color: blue;
-    color: antiquewhite;
+    background-color: rgb(141, 141, 146);
+   
 }
-
 
 header{
 
-    background-color:black;
-    width: 25%;
-    color:aliceblue;
-    text-align: center;
-    
+    display: inline-block;
 }
 
-h1{
+.plog{
 
-    text-align: center;
+    width: 20%;
+    border-radius: 50%;
 }
