@@ -1,6 +1,33 @@
-body{
+#plog{
 
-    background-color: black;
-    color:aliceblue;
-    text-align: center;
+    color: rgb(221, 192, 149);
+    width: 20%;
+}
+
+#picon{
+
+    color: rgb(225, 240, 210);
+    font-size: 30px;
+    
+}
+
+header{
+    
+    background-image: url("../img/crist+lago.png"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 680px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#datos{
+
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#sobreMi{
+    border-radius: 20px;
 }
