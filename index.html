@@ -20,13 +20,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">SobreMi</a>
+            <a class="nav-link active" aria-current="page" href="#Educacion">Educacion</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Experiencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Trabajos</a>
+            <a class="nav-link" href="#">Portafolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled">Contacto</a>
@@ -37,32 +37,54 @@
     </div>
   </nav>
 
-  <header class="text-center d-flex flex-column justify-content-center">
+  <header class="text-center d-flex flex-column justify-content-center text-white">
 
     <h1>Soy Cristopher Rivera</h1>
     <H2> Student Full Stack Developer</H2>
   </header>
 
-  <section id="SobreMi" class="container">
-    <h2 class="text-center m-3 ">Sobre Mi</h2>
+  <section id="Educacion" class="container">
+    <h2 class="text-center m-3 ">Educacion</h2>
 
-    <div class="row">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/placa electronica.jpg" class="d-block w-50" alt="placa electronica">
 
-      <div class="col-md-6">
-        <img src="assets/img/By-Crist.jpeg"width="25%" alt="mi foto">
-      </div>
-
-      <div class="col-md-6" id="datos">
-        <ul>
-        <br> 
-         <li>Edad: 32</li>
-         <li>eMail: cris.riverahernandez@gmail.com</li>
-         <li>Situacion Laboral: Independiente</li>
+          <ul>
+            <li>Electronico Industrial</li>
+            <li>CFT Inacap </li>
+            <li>2018 - 2021</li>
         </ul>
- 
-       </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/audio.webp" class="d-block w-50" alt="equipos de audio y grabacion">
 
-    </div>
+          <ul>
+            <li>Tecnico en Sonido</li>
+            <li>IP Chile </li>
+            <li>2010 - 2013</li>
+        </ul>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/By-Crist.jpeg" class="d-block w-50" alt="...">
+
+          <ul>
+            <li>Musico Autodidacta</li>
+            <li>Guitarra - Bajo - Teclado - Percusion - Diseño sonoro programado </li>
+            <li>2008 - 2023</li>
+        </ul>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div> 
 
   </section>
   
