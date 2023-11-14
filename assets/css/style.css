@@ -59,3 +59,17 @@ section{
     color: rgb(165, 162, 159);
     font-size: 25px;
 }
+
+#Fontexp{
+
+    color: rgb(70, 52, 144);
+    font-style:inherit;
+    font-size: 40px;
+}
+
+#Fontport{
+
+    color: rgb(34, 109, 175);
+    font-style:inherit;
+    font-size: 40px;
+}
