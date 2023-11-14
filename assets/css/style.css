@@ -73,3 +73,9 @@ section{
     font-style:inherit;
     font-size: 40px;
 }
+
+footer{
+
+    background-color:black;
+    color: azure;
+}
