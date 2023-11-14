@@ -24,13 +24,13 @@ header{
 
 section{
 
-    background-color: black;
+    background-color: aliceblue;
     width: 10%;
 }
 
 #Fonted{
 
-    color: antiquewhite;
+    color: rgb(185, 183, 181);
     font-style:inherit;
     font-size: 40px;
 }
@@ -43,5 +43,13 @@ section{
 }
 
 #Educacion{
-    border-radius: 20px;
+    
+    color: rgb(127, 130, 129);
+    font-size: 20px;
+
+}
+
+#test{
+
+    background-color: rgb(184, 184, 212);
 }
